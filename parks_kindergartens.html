@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5098565b8ce4e2307a452c5adea2b3ec {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5098565b8ce4e2307a452c5adea2b3ec" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5098565b8ce4e2307a452c5adea2b3ec = L.map(
+                "map_5098565b8ce4e2307a452c5adea2b3ec",
+                {
+                    center: [37.9716, 23.7261],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_657fdf9b0460acf3e6930c10d7e05368 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5098565b8ce4e2307a452c5adea2b3ec);
+        
+    
+            var feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d = L.featureGroup(
+                {}
+            ).addTo(map_5098565b8ce4e2307a452c5adea2b3ec);
+        
+    
+            var marker_c0a8e3150c27e45e2dac6da750b15b5a = L.marker(
+                [37.95659432849406, 23.7213106064552],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_d3bebf5592385768f44dd6dc720c84d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0a8e3150c27e45e2dac6da750b15b5a.setIcon(icon_d3bebf5592385768f44dd6dc720c84d0);
+        
+    
+        var popup_90e124ece42b573f76a79f3d6d29b893 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f6787115ea0cf5117a4c2354cfcfa69 = $(`<div id="html_4f6787115ea0cf5117a4c2354cfcfa69" style="width: 100.0%; height: 100.0%;"><b>Playground in ΔΟΥΡΓΟΥΤΙ ΙΙ</b><br>37.95659432849406 23.7213106064552<br></div>`)[0];
+                popup_90e124ece42b573f76a79f3d6d29b893.setContent(html_4f6787115ea0cf5117a4c2354cfcfa69);
+            
+        
+
+        marker_c0a8e3150c27e45e2dac6da750b15b5a.bindPopup(popup_90e124ece42b573f76a79f3d6d29b893)
+        ;
+
+        
+    
+    
+            var marker_4da085adf5fae0e8fa8efb5f955e1494 = L.marker(
+                [37.97823500288072, 23.713032015149217],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_fb74ec6ef5e6287150a953d484f23989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4da085adf5fae0e8fa8efb5f955e1494.setIcon(icon_fb74ec6ef5e6287150a953d484f23989);
+        
+    
+        var popup_e30115635efa8b0138a34f953c5e9b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63008b667de172a554e6031f843f138e = $(`<div id="html_63008b667de172a554e6031f843f138e" style="width: 100.0%; height: 100.0%;"><b>Playground in ΓΚΑΖΟΧΩΡΙ</b><br>37.97823500288072 23.713032015149217<br></div>`)[0];
+                popup_e30115635efa8b0138a34f953c5e9b5e.setContent(html_63008b667de172a554e6031f843f138e);
+            
+        
+
+        marker_4da085adf5fae0e8fa8efb5f955e1494.bindPopup(popup_e30115635efa8b0138a34f953c5e9b5e)
+        ;
+
+        
+    
+    
+            var marker_ecae092ab2548e662c6be6e794024212 = L.marker(
+                [37.97823500288072, 23.713032015149217],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_30e62e6bf49f3646c6a7477f04af39c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ecae092ab2548e662c6be6e794024212.setIcon(icon_30e62e6bf49f3646c6a7477f04af39c9);
+        
+    
+        var popup_f3c06deaabce122cd404260c8e8b9693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ac7684653627b5d87ac745eb4e8ab8e = $(`<div id="html_1ac7684653627b5d87ac745eb4e8ab8e" style="width: 100.0%; height: 100.0%;"><b>Playground in ΓΚΑΖΟΧΩΡΙ</b><br>37.97823500288072 23.713032015149217<br></div>`)[0];
+                popup_f3c06deaabce122cd404260c8e8b9693.setContent(html_1ac7684653627b5d87ac745eb4e8ab8e);
+            
+        
+
+        marker_ecae092ab2548e662c6be6e794024212.bindPopup(popup_f3c06deaabce122cd404260c8e8b9693)
+        ;
+
+        
+    
+    
+            var marker_c5b2bb1d214c3579497d2e413708a89f = L.marker(
+                [37.97471705263179, 23.712712833617832],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_b30aa96d0fb9194ffc022765893b73f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c5b2bb1d214c3579497d2e413708a89f.setIcon(icon_b30aa96d0fb9194ffc022765893b73f2);
+        
+    
+        var popup_58914b763cd1e0aef0dcd2116749fc44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f84be09386d5f6f94d2c989545a2b95c = $(`<div id="html_f84be09386d5f6f94d2c989545a2b95c" style="width: 100.0%; height: 100.0%;"><b>Playground in ΚΑΜΠΑ</b><br>37.97471705263179 23.712712833617832<br></div>`)[0];
+                popup_58914b763cd1e0aef0dcd2116749fc44.setContent(html_f84be09386d5f6f94d2c989545a2b95c);
+            
+        
+
+        marker_c5b2bb1d214c3579497d2e413708a89f.bindPopup(popup_58914b763cd1e0aef0dcd2116749fc44)
+        ;
+
+        
+    
+    
+            var marker_62416495a1dd3d5820082be4d5d89c26 = L.marker(
+                [37.975075841105806, 23.716988959999625],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_0022986d7c1beab108852692817033e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62416495a1dd3d5820082be4d5d89c26.setIcon(icon_0022986d7c1beab108852692817033e9);
+        
+    
+        var popup_de59893dbce328d2951ba3b0e0995872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60976a2da4b6ffc75979e51f1bf6635f = $(`<div id="html_60976a2da4b6ffc75979e51f1bf6635f" style="width: 100.0%; height: 100.0%;"><b>Playground in ΘΗΣΕΙΟ</b><br>37.975075841105806 23.716988959999625<br></div>`)[0];
+                popup_de59893dbce328d2951ba3b0e0995872.setContent(html_60976a2da4b6ffc75979e51f1bf6635f);
+            
+        
+
+        marker_62416495a1dd3d5820082be4d5d89c26.bindPopup(popup_de59893dbce328d2951ba3b0e0995872)
+        ;
+
+        
+    
+    
+            var marker_d84f5b40af8674358d50e5f3255d08bd = L.marker(
+                [37.96565677283772, 23.710781128262933],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_4615769640f3c08ce789461b70f5bd0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d84f5b40af8674358d50e5f3255d08bd.setIcon(icon_4615769640f3c08ce789461b70f5bd0d);
+        
+    
+        var popup_49a6758cad76773835b98a8617507e1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_809c2ece60c8d2b019b0b2593b1f2dd0 = $(`<div id="html_809c2ece60c8d2b019b0b2593b1f2dd0" style="width: 100.0%; height: 100.0%;"><b>Playground in ΚΟΙΛΗΣ</b><br>37.96565677283772 23.710781128262933<br></div>`)[0];
+                popup_49a6758cad76773835b98a8617507e1d.setContent(html_809c2ece60c8d2b019b0b2593b1f2dd0);
+            
+        
+
+        marker_d84f5b40af8674358d50e5f3255d08bd.bindPopup(popup_49a6758cad76773835b98a8617507e1d)
+        ;
+
+        
+    
+    
+            var marker_0866c179f5ca9acb0be259578d6be934 = L.marker(
+                [37.96565677283772, 23.710781128262933],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_a5aefe4e91a606dca20034989595ff23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0866c179f5ca9acb0be259578d6be934.setIcon(icon_a5aefe4e91a606dca20034989595ff23);
+        
+    
+        var popup_11c56e1bb8f7cfd49ebdfd159f604848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ed2166a617ac036c59170a9babfd0ce = $(`<div id="html_8ed2166a617ac036c59170a9babfd0ce" style="width: 100.0%; height: 100.0%;"><b>Playground in ΚΟΙΛΗΣ</b><br>37.96565677283772 23.710781128262933<br></div>`)[0];
+                popup_11c56e1bb8f7cfd49ebdfd159f604848.setContent(html_8ed2166a617ac036c59170a9babfd0ce);
+            
+        
+
+        marker_0866c179f5ca9acb0be259578d6be934.bindPopup(popup_11c56e1bb8f7cfd49ebdfd159f604848)
+        ;
+
+        
+    
+    
+            var marker_aef6ee72981f20202c87d0137c2f0f58 = L.marker(
+                [37.964702260356226, 23.729500432898263],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_9bb4dd3a039e88efe9ea7a860f51403f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aef6ee72981f20202c87d0137c2f0f58.setIcon(icon_9bb4dd3a039e88efe9ea7a860f51403f);
+        
+    
+        var popup_9844bcdab5f70d8edc4a61fd6f73b818 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d1ea977c32c7e2966b34a1cc244f788 = $(`<div id="html_7d1ea977c32c7e2966b34a1cc244f788" style="width: 100.0%; height: 100.0%;"><b>Playground in ΚΑΛΛΙΡΟΗΣ</b><br>37.964702260356226 23.729500432898263<br></div>`)[0];
+                popup_9844bcdab5f70d8edc4a61fd6f73b818.setContent(html_7d1ea977c32c7e2966b34a1cc244f788);
+            
+        
+
+        marker_aef6ee72981f20202c87d0137c2f0f58.bindPopup(popup_9844bcdab5f70d8edc4a61fd6f73b818)
+        ;
+
+        
+    
+    
+            var marker_df61437514c5a589d306b0c1f49d04d6 = L.marker(
+                [37.962530745553856, 23.720702820204256],
+                {"sticky": true}
+            ).addTo(feature_group_1dfd3d3f0563ad322bbe3901e33e2e6d);
+        
+    
+            var icon_dc3c903ffdae5de2ed9a0d1ff897d895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df61437514c5a589d306b0c1f49d04d6.setIcon(icon_dc3c903ffdae5de2ed9a0d1ff897d895);
+        
+    
+        var popup_a8a74faed2d4d65d1e7a1044f199e0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33eae29a808f3f0922a48fa7dd27f138 = $(`<div id="html_33eae29a808f3f0922a48fa7dd27f138" style="width: 100.0%; height: 100.0%;"><b>Playground in ΚΟΥΚΑΚΙ</b><br>37.962530745553856 23.720702820204256<br></div>`)[0];
+                popup_a8a74faed2d4d65d1e7a1044f199e0a2.setContent(html_33eae29a808f3f0922a48fa7dd27f138);
+            
+        
+
+        marker_df61437514c5a589d306b0c1f49d04d6.bindPopup(popup_a8a74faed2d4d65d1e7a1044f199e0a2)
+        ;
+
+        
+    
+    
+            var feature_group_141bc9a760d7dacd9ec2cd772c8ee341 = L.featureGroup(
+                {}
+            ).addTo(map_5098565b8ce4e2307a452c5adea2b3ec);
+        
+    
+            var marker_3c596c68528731d272e2cc20715434d6 = L.marker(
+                [37.96154281473719, 23.73341537541595],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_9b6de607a5c198da7357054b9f438bf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c596c68528731d272e2cc20715434d6.setIcon(icon_9b6de607a5c198da7357054b9f438bf8);
+        
+    
+        var popup_1a13805af686349bbeffdba52f700b82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75986df5279d20ff740e71bae640e0bf = $(`<div id="html_75986df5279d20ff740e71bae640e0bf" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.96154281473719 23.73341537541595<br></div>`)[0];
+                popup_1a13805af686349bbeffdba52f700b82.setContent(html_75986df5279d20ff740e71bae640e0bf);
+            
+        
+
+        marker_3c596c68528731d272e2cc20715434d6.bindPopup(popup_1a13805af686349bbeffdba52f700b82)
+        ;
+
+        
+    
+    
+            var marker_8fdf70d0ca3781518fca24231e9e5dfd = L.marker(
+                [37.98113992986716, 23.714912372218254],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_49a7f5105f1fda8b54696079605db6fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8fdf70d0ca3781518fca24231e9e5dfd.setIcon(icon_49a7f5105f1fda8b54696079605db6fe);
+        
+    
+        var popup_90883311359414a6c45bb654f3b3687a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d25a9fab05a890791bff07eef85fb86 = $(`<div id="html_7d25a9fab05a890791bff07eef85fb86" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.98113992986716 23.714912372218254<br></div>`)[0];
+                popup_90883311359414a6c45bb654f3b3687a.setContent(html_7d25a9fab05a890791bff07eef85fb86);
+            
+        
+
+        marker_8fdf70d0ca3781518fca24231e9e5dfd.bindPopup(popup_90883311359414a6c45bb654f3b3687a)
+        ;
+
+        
+    
+    
+            var marker_1231a8e03946993f51b1063dfc29090e = L.marker(
+                [37.97941046254633, 23.72415263191237],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_0146b97845e08f239be1fcbacb7c12aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1231a8e03946993f51b1063dfc29090e.setIcon(icon_0146b97845e08f239be1fcbacb7c12aa);
+        
+    
+        var popup_c16f1b4c5a3cf6125740f12f3d56d040 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05fb4e83cd62c5fef8dccae428512619 = $(`<div id="html_05fb4e83cd62c5fef8dccae428512619" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.97941046254633 23.72415263191237<br></div>`)[0];
+                popup_c16f1b4c5a3cf6125740f12f3d56d040.setContent(html_05fb4e83cd62c5fef8dccae428512619);
+            
+        
+
+        marker_1231a8e03946993f51b1063dfc29090e.bindPopup(popup_c16f1b4c5a3cf6125740f12f3d56d040)
+        ;
+
+        
+    
+    
+            var marker_603a3fc24a8a1ec6ec85012d18f7f3d8 = L.marker(
+                [37.97471705263179, 23.712712833617832],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_b1e39ee60ccc7f85d48899f0e47a6488 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_603a3fc24a8a1ec6ec85012d18f7f3d8.setIcon(icon_b1e39ee60ccc7f85d48899f0e47a6488);
+        
+    
+        var popup_3e22e0f069c39c990b90e5bb2d59575c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0506ee6d82f6a076ddda731b39638dd = $(`<div id="html_e0506ee6d82f6a076ddda731b39638dd" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.97471705263179 23.712712833617832<br></div>`)[0];
+                popup_3e22e0f069c39c990b90e5bb2d59575c.setContent(html_e0506ee6d82f6a076ddda731b39638dd);
+            
+        
+
+        marker_603a3fc24a8a1ec6ec85012d18f7f3d8.bindPopup(popup_3e22e0f069c39c990b90e5bb2d59575c)
+        ;
+
+        
+    
+    
+            var marker_2e0f5b7c69aeea5e55420922ca901f00 = L.marker(
+                [37.97402770820519, 23.728419151449323],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_e980976e39de2114508ce2cbbbc9841d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e0f5b7c69aeea5e55420922ca901f00.setIcon(icon_e980976e39de2114508ce2cbbbc9841d);
+        
+    
+        var popup_4476223db4392c66d06e6d783605dc4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14fb0bb175dd3f4ebcbbabc5939e9fc6 = $(`<div id="html_14fb0bb175dd3f4ebcbbabc5939e9fc6" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.97402770820519 23.728419151449323<br></div>`)[0];
+                popup_4476223db4392c66d06e6d783605dc4e.setContent(html_14fb0bb175dd3f4ebcbbabc5939e9fc6);
+            
+        
+
+        marker_2e0f5b7c69aeea5e55420922ca901f00.bindPopup(popup_4476223db4392c66d06e6d783605dc4e)
+        ;
+
+        
+    
+    
+            var marker_1b53f58cbeecfaaac9bb1cd9e6878550 = L.marker(
+                [37.97201531996043, 23.745821455801842],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_8ae45c52195ca3b4fec9a061dd8001f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b53f58cbeecfaaac9bb1cd9e6878550.setIcon(icon_8ae45c52195ca3b4fec9a061dd8001f9);
+        
+    
+        var popup_3ba2cdd8da80e8c3b893558a14122996 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e4d7eb7a9869ae919742a6677127cb5 = $(`<div id="html_7e4d7eb7a9869ae919742a6677127cb5" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.97201531996043 23.745821455801842<br></div>`)[0];
+                popup_3ba2cdd8da80e8c3b893558a14122996.setContent(html_7e4d7eb7a9869ae919742a6677127cb5);
+            
+        
+
+        marker_1b53f58cbeecfaaac9bb1cd9e6878550.bindPopup(popup_3ba2cdd8da80e8c3b893558a14122996)
+        ;
+
+        
+    
+    
+            var marker_91cbcf0754f3c1d51257cc941a243918 = L.marker(
+                [37.96565677283772, 23.710781128262933],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_8dbfd0ce1944398ae51966f7f17a602d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_91cbcf0754f3c1d51257cc941a243918.setIcon(icon_8dbfd0ce1944398ae51966f7f17a602d);
+        
+    
+        var popup_dc9fc7448a065f872ea2690581fb52d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2226e03a397eb92fffba3ee5bfe4ad36 = $(`<div id="html_2226e03a397eb92fffba3ee5bfe4ad36" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.96565677283772 23.710781128262933<br></div>`)[0];
+                popup_dc9fc7448a065f872ea2690581fb52d8.setContent(html_2226e03a397eb92fffba3ee5bfe4ad36);
+            
+        
+
+        marker_91cbcf0754f3c1d51257cc941a243918.bindPopup(popup_dc9fc7448a065f872ea2690581fb52d8)
+        ;
+
+        
+    
+    
+            var marker_c01b91c34db41d8bd12e83f5e66898c2 = L.marker(
+                [37.965463105138035, 23.742596850662704],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_e6e8dd03541dfac61b5b93aa0906770f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c01b91c34db41d8bd12e83f5e66898c2.setIcon(icon_e6e8dd03541dfac61b5b93aa0906770f);
+        
+    
+        var popup_923a207e2d16a0addc05aefc3bd159d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6a545f07adb3ca5d3da15d7ce88fdac = $(`<div id="html_e6a545f07adb3ca5d3da15d7ce88fdac" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.965463105138035 23.742596850662704<br></div>`)[0];
+                popup_923a207e2d16a0addc05aefc3bd159d0.setContent(html_e6a545f07adb3ca5d3da15d7ce88fdac);
+            
+        
+
+        marker_c01b91c34db41d8bd12e83f5e66898c2.bindPopup(popup_923a207e2d16a0addc05aefc3bd159d0)
+        ;
+
+        
+    
+    
+            var marker_3d9ac36e14bdcd18c7397f630abd7c74 = L.marker(
+                [37.96508571377354, 23.72414936456406],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_78ef2c52a5d2db0548c6bee8feecfb6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d9ac36e14bdcd18c7397f630abd7c74.setIcon(icon_78ef2c52a5d2db0548c6bee8feecfb6a);
+        
+    
+        var popup_e321f3b05397085d80705409381bc3ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39e2f188ce6520b1f7c4207970e049e0 = $(`<div id="html_39e2f188ce6520b1f7c4207970e049e0" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.96508571377354 23.72414936456406<br></div>`)[0];
+                popup_e321f3b05397085d80705409381bc3ec.setContent(html_39e2f188ce6520b1f7c4207970e049e0);
+            
+        
+
+        marker_3d9ac36e14bdcd18c7397f630abd7c74.bindPopup(popup_e321f3b05397085d80705409381bc3ec)
+        ;
+
+        
+    
+    
+            var marker_61b17020cccfa7ad580c8abb376b56a6 = L.marker(
+                [37.95983766986577, 23.723734853918298],
+                {"sticky": true}
+            ).addTo(feature_group_141bc9a760d7dacd9ec2cd772c8ee341);
+        
+    
+            var icon_57b7c168204b4bb091b0cff2e0c22813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61b17020cccfa7ad580c8abb376b56a6.setIcon(icon_57b7c168204b4bb091b0cff2e0c22813);
+        
+    
+        var popup_f3cd8818c96c1cab35562e72d70d136c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_479d4e0565adb7276b6f2233fc455896 = $(`<div id="html_479d4e0565adb7276b6f2233fc455896" style="width: 100.0%; height: 100.0%;"><b>Kindergarten</b><br>37.95983766986577 23.723734853918298<br></div>`)[0];
+                popup_f3cd8818c96c1cab35562e72d70d136c.setContent(html_479d4e0565adb7276b6f2233fc455896);
+            
+        
+
+        marker_61b17020cccfa7ad580c8abb376b56a6.bindPopup(popup_f3cd8818c96c1cab35562e72d70d136c)
+        ;
+
+        
+    
+</script>
+</html>
